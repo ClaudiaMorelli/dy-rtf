@@ -1,0 +1,83 @@
+﻿<script src="https://kit.fontawesome.com/02fcfcfe59.js" crossorigin="anonymous"></script>
+<div id="dy-recommendations-${dyVariationId}">
+    <div class="title-${dyVariationId} hidden">${Title}</div>
+    <div class="dy-recommendations__slider-conatiner-${dyVariationId}">
+        <div class="dy-recommendations__slider-${dyVariationId}">
+            <div class="dy-filters-${dyVariationId}">
+                <div class="dy-filter-field-${dyVariationId}">
+                    <label class="dy-filter-label-${dyVariationId}">Stelle</label>
+                    <div class="dy-multiselect-${dyVariationId}" data-filter-group="star">
+                        <button type="button" class="dy-multiselect-trigger-${dyVariationId}">
+                            <span class="dy-multiselect-trigger-text-${dyVariationId}">Tutte le stelle</span>
+                        </button>
+                        <div class="dy-multiselect-dropdown-${dyVariationId} hidden">
+                            <div class="dy-multiselect-options-${dyVariationId}" data-options="star"></div>
+                            <div class="dy-multiselect-footer-${dyVariationId}">
+                                <button type="button" class="dy-multiselect-reset-${dyVariationId}" data-reset-group="star">Reset</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dy-filter-field-${dyVariationId}">
+                    <label class="dy-filter-label-${dyVariationId}">Caratteristiche</label>
+                    <div class="dy-multiselect-${dyVariationId}" data-filter-group="tag">
+                        <button type="button" class="dy-multiselect-trigger-${dyVariationId}">
+                            <span class="dy-multiselect-trigger-text-${dyVariationId}">Tutte le caratteristiche</span>
+                        </button>
+                        <div class="dy-multiselect-dropdown-${dyVariationId} hidden">
+                            <div class="dy-multiselect-options-${dyVariationId}" data-options="tag"></div>
+                            <div class="dy-multiselect-footer-${dyVariationId}">
+                                <button type="button" class="dy-multiselect-reset-${dyVariationId}" data-reset-group="tag">Reset</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dy-filter-field-${dyVariationId}">
+                    <label class="dy-filter-label-${dyVariationId}">Tipologia hotel</label>
+                    <div class="dy-multiselect-${dyVariationId}" data-filter-group="tig">
+                        <button type="button" class="dy-multiselect-trigger-${dyVariationId}">
+                            <span class="dy-multiselect-trigger-text-${dyVariationId}">Tutte le tipologie</span>
+                        </button>
+                        <div class="dy-multiselect-dropdown-${dyVariationId} hidden">
+                            <div class="dy-multiselect-options-${dyVariationId}" data-options="tig"></div>
+                            <div class="dy-multiselect-footer-${dyVariationId}">
+                                <button type="button" class="dy-multiselect-reset-${dyVariationId}" data-reset-group="tig">Reset</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dy-filter-field-${dyVariationId}">
+                    <label class="dy-filter-label-${dyVariationId}">Servizi</label>
+                    <div class="dy-multiselect-${dyVariationId}" data-filter-group="ser">
+                        <button type="button" class="dy-multiselect-trigger-${dyVariationId}">
+                            <span class="dy-multiselect-trigger-text-${dyVariationId}">Tutti i servizi</span>
+                        </button>
+                        <div class="dy-multiselect-dropdown-${dyVariationId} hidden">
+                            <input type="text" class="dy-multiselect-search-${dyVariationId}" placeholder="Cerca servizi">
+                            <div class="dy-multiselect-options-${dyVariationId}" data-options="ser"></div>
+                            <div class="dy-multiselect-footer-${dyVariationId}">
+                                <button type="button" class="dy-multiselect-reset-${dyVariationId}" data-reset-group="ser">Reset</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dy-filter-actions-${dyVariationId}">
+                    <button type="button" class="dy-filter-reset-${dyVariationId}">Reset</button>
+                </div>
+            </div>
+
+            <div class="dy-empty-state-${dyVariationId} hidden">Nessun risultato con i filtri selezionati</div>
+
+            <div class="dy-recommendations__slider-wrapper hidden"></div>
+        </div>
+        <div class="dy-recommendations-slider-pagination" role="navigation" aria-label="Slider pagination"></div>
+        <div class="dy-recommendations-slider-arrows hidden">
+            <div class="dy-recommendations-slider-button dy-recommendations-slider-button--prev" aria-label="Previous slide" tabindex="0"></div>
+            <div class="dy-recommendations-slider-button dy-recommendations-slider-button--next" aria-label="Next slide" tabindex="0"></div>
+        </div>
+    </div>
+</div>

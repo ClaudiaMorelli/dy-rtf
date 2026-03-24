@@ -1,0 +1,1079 @@
+﻿/* =========================================
+   CONTENITORE GENERALE
+========================================= */
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+{
+    $ {
+        Font
+    }
+
+    box-sizing: border-box;
+    position: relative;
+    min-height: 560px;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+,
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* =========================================
+   SKELETON
+========================================= */
+.dy-skeleton-card-$ {
+    dyVariationId
+}
+
+{
+    position: relative;
+    width: 318px !important;
+    min-width: 318px !important;
+    height: 360px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #f2f4f7;
+    box-shadow: 5px 5px 5px 0 #ccc;
+    flex-shrink: 0;
+    margin-inline: 5px;
+}
+
+.dy-skeleton-shimmer-$ {
+    dyVariationId
+}
+
+{
+    position: absolute;
+    inset: 0;
+    background: linear-gradient( 90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.45) 50%, rgba(255,255,255,0) 100% );
+    transform: translateX(-100%);
+
+    animation: dySkeletonShimmer-$ {
+        dyVariationId
+    }
+
+    1.4s infinite;
+}
+
+.dy-skeleton-content-$ {
+    dyVariationId
+}
+
+{
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dy-skeleton-line-$ {
+    dyVariationId
+}
+
+{
+    height: 12px;
+    border-radius: 8px;
+    background: #dfe3e8;
+}
+
+.dy-skeleton-line-$ {
+    dyVariationId
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.dy-skeleton-line-$ {
+    dyVariationId
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.dy-skeleton-line-$ {
+    dyVariationId
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.dy-skeleton-line-$ {
+    dyVariationId
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.dy-skeleton-button-$ {
+    dyVariationId
+}
+
+{
+    height: 38px;
+    border-radius: 8px;
+    background: #dfe3e8;
+    margin-top: 8px;
+}
+
+@keyframes dySkeletonShimmer-
+
+$ {
+    dyVariationId
+}
+
+{
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* =========================================
+   TITOLO
+========================================= */
+.title-$ {
+    dyVariationId
+}
+
+{
+    width: 100%;
+    text-align: center;
+
+    margin-top: $ {
+        margin-top
+    }
+
+    px;
+
+    margin-bottom: $ {
+        margin-bottom
+    }
+
+    px;
+
+    font-size: $ {
+        Title-size
+    }
+
+    px;
+
+    color: $ {
+        Title-color
+    }
+
+    ;
+
+    $ {
+        font-weight
+    }
+}
+
+
+/* =========================================
+   CONTENITORE SLIDER
+   Fix overflow: dropdown filtri non deve essere tagliato
+========================================= */
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations__slider-conatiner-$ {
+    dyVariationId
+}
+
+{
+    margin: 0 30px;
+    position: relative;
+    justify-self: center;
+    overflow: visible;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations__slider-$ {
+    dyVariationId
+}
+
+{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations__slider-$ {
+    dyVariationId
+}
+
+.is-empty-results {
+    overflow: visible;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations__slider-wrapper {
+    display: flex;
+
+    margin: 10px 0 $ {
+        margin-bottom-div
+    }
+
+    px;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendation-product-$ {
+    dyVariationId
+}
+
+{
+    flex-shrink: 0;
+    position: relative;
+    background-color: #fff;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    margin-inline: 5px;
+}
+
+
+/* =========================================
+   FILTRI - LAYOUT
+========================================= */
+.dy-filters-$ {
+    dyVariationId
+}
+
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: flex-end;
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 30;
+    overflow: visible;
+}
+
+.dy-filter-field-$ {
+    dyVariationId
+}
+
+{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 220px;
+    position: relative;
+    overflow: visible;
+}
+
+.dy-filter-label-$ {
+    dyVariationId
+}
+
+{
+    font-size: 13px;
+    font-weight: 600;
+
+    color: $ {
+        Title-color
+    }
+
+    ;
+}
+
+.dy-filter-actions-$ {
+    dyVariationId
+}
+
+{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* =========================================
+   FILTRI - SELECT E BUTTON RESET
+========================================= */
+.dy-filter-select-$ {
+    dyVariationId
+}
+
+{
+    height: 42px;
+    border: 1px solid #d7d9e0;
+    border-radius: 8px;
+    padding: 0 12px;
+    font-size: 14px;
+    color: #002d72;
+    background: #fff;
+    outline: none;
+    cursor: pointer;
+}
+
+.dy-filter-select-$ {
+    dyVariationId
+}
+
+:focus {
+    border-color: #002d72;
+}
+
+.dy-filter-reset-$ {
+    dyVariationId
+}
+
+{
+    height: 42px;
+    border: 1px solid #d7d9e0;
+    border-radius: 8px;
+    padding: 0 16px;
+    background: #002d72;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.dy-filter-reset-$ {
+    dyVariationId
+}
+
+:hover {
+    border-color: #002d72;
+}
+
+
+/* =========================================
+   MULTISELECT - CONTENITORE E TRIGGER
+========================================= */
+.dy-multiselect-$ {
+    dyVariationId
+}
+
+{
+    position: relative;
+    width: 100%;
+    overflow: visible;
+}
+
+.dy-multiselect-trigger-$ {
+    dyVariationId
+}
+
+{
+    width: 100%;
+    height: 42px;
+    border: 1px solid #d7d9e0;
+    border-radius: 8px;
+    background: #fff;
+    color: #002d72;
+    font-size: 14px;
+    text-align: left;
+    padding: 0 12px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.dy-multiselect-trigger-text-$ {
+    dyVariationId
+}
+
+{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* =========================================
+   MULTISELECT - DROPDOWN
+   Fix overflow + layering
+========================================= */
+.dy-multiselect-dropdown-$ {
+    dyVariationId
+}
+
+{
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    right: 0;
+    background: #fff;
+    border: 1px solid #d7d9e0;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    z-index: 50;
+    padding: 10px;
+    padding-bottom: 4px;
+    min-width: 100%;
+}
+
+.dy-multiselect-search-$ {
+    dyVariationId
+}
+
+{
+    width: 100%;
+    height: 38px;
+    border: 1px solid #d7d9e0;
+    border-radius: 8px;
+    padding: 0 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.dy-multiselect-options-$ {
+    dyVariationId
+}
+
+{
+    max-height: 260px;
+    overflow-y: auto;
+}
+
+.dy-multiselect-option-$ {
+    dyVariationId
+}
+
+{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 2px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #002d72;
+}
+
+.dy-multiselect-option-$ {
+    dyVariationId
+}
+
+input {
+    margin: 0;
+}
+
+.dy-multiselect-empty-$ {
+    dyVariationId
+}
+
+{
+    font-size: 13px;
+    color: #7b808c;
+    padding: 8px 2px;
+}
+
+.dy-multiselect-footer-$ {
+    dyVariationId
+}
+
+{
+    padding-top: 4px;
+    border-top: 1px solid #eef1f5;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dy-multiselect-reset-$ {
+    dyVariationId
+}
+
+{
+    height: 34px;
+    border-radius: 8px;
+    padding: 0 12px;
+    background: #fff;
+    color: #002d72;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.dy-multiselect-reset-$ {
+    dyVariationId
+}
+
+:hover {
+    border-color: #002d72;
+}
+
+/* =========================================
+   SERVIZI - GRUPPI / ACCORDION
+========================================= */
+.dy-group {
+    border-bottom: 1px solid #eef1f5;
+}
+
+    .dy-group:last-child {
+        border-bottom: 0;
+    }
+
+.dy-group-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 10px 2px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #002d72;
+}
+
+.dy-group-body {
+    padding: 0 0 8px;
+}
+
+.dy-group-header .arrow {
+    flex-shrink: 0;
+    font-size: 12px;
+    line-height: 1;
+}
+
+
+/* =========================================
+   EMPTY STATE
+========================================= */
+.dy-empty-state-$ {
+    dyVariationId
+}
+
+{
+    margin: 8px 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7b808c;
+}
+
+
+/* =========================================
+   CARD
+========================================= */
+.card-$ {
+    dyVariationId
+}
+
+{
+    position: relative;
+    width: 318px !important;
+    min-width: 318px !important;
+    height: 360px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 0 #ccc;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.card-content-$ {
+    dyVariationId
+}
+
+{
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 50%, transparent 100%);
+}
+
+.logo {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 2;
+}
+
+.card-info-$ {
+    dyVariationId
+}
+
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title-$ {
+    dyVariationId
+}
+
+{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+/* =========================================
+   RATING / STELLE
+========================================= */
+.rating-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: gold;
+}
+
+.score {
+    display: none !important;
+    align-items: center;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.score-value {
+    border-radius: 8px;
+    background-color: white;
+    padding: 4px 6px;
+    color: #0077cc;
+    margin-right: 4px;
+}
+
+.score-label {
+    color: white;
+    display: none;
+}
+
+
+/* =========================================
+   LOCATION / CTA
+========================================= */
+.location-$ {
+    dyVariationId
+}
+
+{
+    margin-bottom: 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.location-$ {
+    dyVariationId
+}
+
+> div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.discover {
+    width: 100%;
+    background: white;
+    color: #002d72;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+    line-height: 20px;
+    letter-spacing: 0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+/* =========================================
+   ELEMENTI DY STANDARD NON USATI NELLE CARD CUSTOM
+   Li lascio solo se servono davvero al template base
+========================================= */
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendation-product__details {
+    text-align: $ {
+        Text Align
+    }
+
+    ;
+    margin: 0;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendation-product__detail {
+    margin: 0;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendation-product__detail--name {
+    font-size: $ {
+        Product Name Font Size
+    }
+
+    px;
+
+    color: $ {
+        Product Name Color
+    }
+
+    ;
+    margin-bottom: 5px;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendation-product__detail--price {
+    font-size: $ {
+        Product Price Font Size
+    }
+
+    px;
+
+    color: $ {
+        Product Price Color
+    }
+
+    ;
+    font-weight: bold;
+
+    $ {
+        Product Price
+    }
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendation-product__image {
+    width: 100%;
+    max-height: 400px;
+
+    border-radius: $ {
+        Image Corner Radius
+    }
+
+    px;
+    margin-bottom: 8px;
+}
+
+
+/* =========================================
+   FRECCE SLIDER
+========================================= */
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations-slider-button {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 35%;
+
+    height: $ {
+        Arrow Height
+    }
+
+    px;
+
+    width: $ {
+        Arrow Width
+    }
+
+    px;
+    z-index: 20;
+    cursor: pointer;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations-slider-button:focus {
+    outline: none;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations-slider-arrows {
+    position: absolute;
+    inset: 0;
+    z-index: 25;
+    pointer-events: none;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations-slider-button {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: 35%;
+
+    height: $ {
+        Arrow Height
+    }
+
+    px;
+
+    width: $ {
+        Arrow Width
+    }
+
+    px;
+    z-index: 26;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations-slider-button--prev,
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations__slider-rtl .dy-recommendations-slider-button--next {
+    right: auto;
+    left: 8px;
+    background-image: url('${Prev Arrow Img}');
+    background-color: transparent;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations-slider-button--next,
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations__slider-rtl .dy-recommendations-slider-button--prev {
+    right: 8px;
+    left: auto;
+    background-image: url('${Next Arrow Img}');
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations-slider-button--disabled {
+    display: none;
+}
+
+
+/* =========================================
+   PAGINAZIONE
+========================================= */
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations-slider-pagination {
+    margin: 4px 0;
+
+    text-align: $ {
+        Dots Position
+    }
+
+    ;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations-slider-pagination-bullet {
+    display: inline-block;
+    border: 6px solid #aaa;
+    border-radius: 6px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations-slider-pagination-bullet:focus {
+    outline: 2px solid #005aab;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations-slider-pagination-bullet__active {
+    border-color: #333;
+    cursor: auto;
+}
+
+#dy-recommendations-$ {
+    dyVariationId
+}
+
+.dy-recommendations-slider--aria-notification {
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    opacity: 0;
+    z-index: -1000;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+@media (max-width: 768px) {
+    .dy-filters-$ {
+        dyVariationId
+    }
+
+{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dy-filter-field-$ {
+    dyVariationId
+}
+
+{
+    width: 100%;
+    min-width: 100%;
+}
+
+.dy-filter-actions-$ {
+    dyVariationId
+}
+
+{
+    width: 100%;
+}
+
+.dy-filter-reset-$ {
+    dyVariationId
+}
+
+{
+    width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 981px) {
+    #dy-recommendations-$ {
+        dyVariationId
+    }
+
+    .dy-recommendations-slider-button {
+        display: none;
+    }
+}
+
+@media (max-width: 414px) {
+    #dy-recommendations-$ {
+        dyVariationId
+    }
+
+    .dy-hide--m {
+        display: none;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 769px) {
+    #dy-recommendations-$ {
+        dyVariationId
+    }
+
+    .dy-hide--t {
+        display: none;
+    }
+}
+
+@media (min-width: 770px) {
+    #dy-recommendations-$ {
+        dyVariationId
+    }
+
+    .dy-hide--d {
+        display: none;
+    }
+}
